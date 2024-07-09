@@ -71,7 +71,7 @@ const Home: React.FC = () => {
 				)}
 
 				{isMediumScreen && (
-					<div className="w-full">
+					<div className="w-full" style={{ marginTop: "8%" }}>
 						<div>
 							<h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-8">
 								WELCOME TO OUR CLUB
@@ -125,6 +125,7 @@ const Home: React.FC = () => {
 								maxWidth: "100%",
 								height: "auto",
 								marginLeft: "5%",
+								marginTop: "6%",
 							}}
 						/>
 					</div>
