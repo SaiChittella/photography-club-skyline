@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
 				{!isMediumScreen && (
 					<div className="hidden md:flex items-center">
 						<img
-							src="/imgs/camera.png"
+							src="/imgs/camera.svg"
 							alt=""
 							className="h-8 mx-4 inline-block"
 						/>
@@ -129,7 +129,7 @@ const Navbar: React.FC = () => {
 							</p>
 						</div>
 						<img
-							src="/imgs/camera.png"
+							src="/imgs/camera.svg"
 							alt="Camera logo"
 							className="h-8"
 						/>
