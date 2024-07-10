@@ -1,7 +1,8 @@
-import AestheticCircle from "@/components/ui/AestheticCircle";
+import AestheticCircle from "../../components/ui/AestheticCircle";
 import EventScroller from "./EventScroller";
 import { createClient, EntrySkeletonType } from "contentful";
-import EventCard from "@/components/ui/EventCard";
+import EventCard from "../../components/ui/EventCard";
+import React from "react";
 
 export default async function Calendar() {
 	const client = createClient({

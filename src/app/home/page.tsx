@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import AestheticCircle from "@/components/ui/AestheticCircle";
 
 const Home: React.FC = () => {
 	const [isMediumScreen, setIsMediumScreen] = useState(false);

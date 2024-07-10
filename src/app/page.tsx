@@ -1,10 +1,10 @@
 import HomePage from "./home/page";
-import Featured from "./featured/page";
-import Contact from "./contact/page";
-import Calendar from "./calendar/page";
+import Featured from "./_featured/page";
+import Contact from "./_contact/page";
+import Calendar from "./_calendar/page";
 import AestheticCircle from "@/components/ui/AestheticCircle";
-import Faq from "./faq/page";
-import Board from "./board/page";
+import Faq from "./_faq/page";
+import Board from "./_board/page";
 import Head from "next/head";
 
 export default function Home() {
